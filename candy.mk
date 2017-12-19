@@ -1,5 +1,7 @@
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
+$(call inherit-product, vendor/candy/config/nfc_enhanced.mk)
+
 $(call inherit-product, device/htc/t6spr/full_t6spr.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
